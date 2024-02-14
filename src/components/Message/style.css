@@ -1,0 +1,37 @@
+.line {
+    margin: 10px;
+    display: flex;
+}
+
+.line.me {
+    justify-content: flex-end; /* Para colocar as mensagens do usuário atual à direita */
+}
+
+.line.me > .content {
+    background-color: #dcf8c6; /* Cor de fundo para as mensagens do usuário atual */
+    border-top-right-radius: 0; /* Remover o arredondamento superior direito */
+}
+
+.line > .content {
+    background-color: #fff; /* Cor de fundo padrão para as mensagens */
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    max-width: 80%;
+}
+
+.message {
+    font-size: 14px;
+    margin: 5px 5px 5px 40px; /* Ajuste das margens para as mensagens */
+    color: #000; /* Cor do texto padrão */
+}
+
+.messageDate {
+    font-size: 11px;
+    color: #999;
+    text-align: right;
+    height: 15px;
+    margin: -5px 5px 0;
+}
