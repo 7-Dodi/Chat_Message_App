@@ -1,0 +1,19 @@
+.sideBarChats{
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+.sideBarChats::-webkit-scrollbar{
+    width: 6px;
+    border-radius: 10px;
+}
+
+.sideBarChats::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.divider{
+    margin: 0 10px;
+    border-top: solid 1px #ddd;
+}
